@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/style', (req, res) => {
-    res.sendFile9path.join(__dirname, "/public/styles.css")
+    res.sendFilepath.join(__dirname, "/public/styles.css")
 })
 
 let students = []
