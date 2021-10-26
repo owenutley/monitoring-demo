@@ -11,6 +11,7 @@ let rollbar = new Rollbar({
 })
 
 const app = express()
+app.use(express.json())
 
 // console.log(__dirname, path)
 app.get('/', (req, res) => {
