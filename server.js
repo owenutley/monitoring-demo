@@ -4,7 +4,7 @@ const path = require('path')
 
 const app = express()
 
-console.log(__dirname, path)
+// console.log(__dirname, path)
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
